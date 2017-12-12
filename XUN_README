@@ -1,0 +1,6 @@
+Follow the following steps to collect data under different input: 
+1) mkdir a benchmark dir in benchmark/, e.g., cd benchmark && mkdir adpcm 
+2) copy all source files to the adpcm dir, and then modify the main source file to generate a random input data, e.g., vim adpcm.c. For detailed
+modification, plz see adpcm.c. 
+3) Back to root dir and then modify the run.py to build, run adpcm and collect the corresponding data. Note modify the APP name in both run.py and
+./analysis/data_collect.py 
